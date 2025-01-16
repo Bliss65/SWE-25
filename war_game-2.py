@@ -63,7 +63,7 @@ class Deck:
     # i.e. all cards above counter will have been dealt
     def __init__(self):
         self.deck = []
-        self.counter = 0
+        self.counter = 20
         global face
         global suit
         for the_face in face:
